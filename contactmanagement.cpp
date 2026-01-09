@@ -37,6 +37,7 @@ void getLine(string& text)
 
 string encryptText(string data)
 {
+string result = "";
 
 
         

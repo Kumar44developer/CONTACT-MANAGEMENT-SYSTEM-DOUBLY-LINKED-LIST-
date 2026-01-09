@@ -29,5 +29,7 @@ string makeTextLowerCase(string text)
 }
 
 void getLine(string& text)
-{
+{ 
+        getline(cin, text);
+
         

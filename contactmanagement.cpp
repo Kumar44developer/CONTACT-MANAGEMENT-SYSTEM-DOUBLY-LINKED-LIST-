@@ -23,3 +23,8 @@ string countryCodes[4] = { "+91", "+1", "+44", "+61" };
 string makeTextLowerCase(string text)
 {
     for (int i = 0; i < text.length(); i++)
+        if (text[i] >= 'A' && text[i] <= 'Z')
+            text[i] += 32;
+
+
+        

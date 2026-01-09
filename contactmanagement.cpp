@@ -9,3 +9,5 @@ struct Node
 {
     string name;
     string phone;
+    string mail;
+    Node* prev;

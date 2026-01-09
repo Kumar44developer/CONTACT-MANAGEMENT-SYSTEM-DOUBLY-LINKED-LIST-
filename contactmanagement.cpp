@@ -13,3 +13,9 @@ struct Node
     Node* prev;
     Node* next;
 };
+
+
+Node* head = NULL;
+Node* lastDeletedContact = NULL;
+
+

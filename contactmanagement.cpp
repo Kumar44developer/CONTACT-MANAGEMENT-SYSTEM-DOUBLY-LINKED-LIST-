@@ -31,5 +31,8 @@ string makeTextLowerCase(string text)
 void getLine(string& text)
 { 
         getline(cin, text);
+        while (text.size() == 0)
+        getline(cin, text);
+}
 
         

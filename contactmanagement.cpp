@@ -18,4 +18,6 @@ struct Node
 Node* head = NULL;
 Node* lastDeletedContact = NULL;
 
+string countryCodes[4] = { "+91", "+1", "+44", "+61" };
+
 

@@ -35,4 +35,8 @@ void getLine(string& text)
         getline(cin, text);
 }
 
+string encryptText(string data)
+{
+
+
         

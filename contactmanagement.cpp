@@ -28,5 +28,6 @@ string makeTextLowerCase(string text)
    return text;
 }
 
-
+void getLine(string& text)
+{
         

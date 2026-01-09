@@ -20,4 +20,5 @@ Node* lastDeletedContact = NULL;
 
 string countryCodes[4] = { "+91", "+1", "+44", "+61" };
 
-
+string makeTextLowerCase(string text)
+{

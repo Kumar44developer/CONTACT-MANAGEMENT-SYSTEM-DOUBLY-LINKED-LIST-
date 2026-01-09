@@ -11,3 +11,5 @@ struct Node
     string phone;
     string mail;
     Node* prev;
+    Node* next;
+};

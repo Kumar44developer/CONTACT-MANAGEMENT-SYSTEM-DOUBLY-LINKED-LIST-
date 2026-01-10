@@ -59,7 +59,9 @@ bool isEmailCorrect(string email)
             lower.find("@outlook.com") != -1 || lower.find("@hotmail.com") != -1);
 }        
 
-
+bool isPhoneNumberCorrect(string phone)
+{
+  
 
 
 

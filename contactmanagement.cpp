@@ -96,6 +96,7 @@ void loadFromFile()
 {
 ifstream file("contacts.txt");
     if (!file) return;
+    string line;
 
 
 

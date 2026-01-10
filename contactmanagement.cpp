@@ -81,6 +81,8 @@ Node* makeNode(string name, string phone, string mail)
 void saveToFile()
 {
     ofstream file("contacts.txt");
+    Node* t = head;
+
 
 
 

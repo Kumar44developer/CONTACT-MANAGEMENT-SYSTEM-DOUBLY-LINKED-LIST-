@@ -85,6 +85,8 @@ void saveToFile()
     while (t)
     {
         file << t->name << ","
+          << encryptText(t->phone) << ","
+          << encryptText(t->mail) << endl;  
 
 
 

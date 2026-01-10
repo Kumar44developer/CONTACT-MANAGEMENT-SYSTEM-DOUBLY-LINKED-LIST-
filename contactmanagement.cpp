@@ -64,6 +64,10 @@ bool isPhoneNumberCorrect(string phone)
     if (phone.length() != 10) return false;
         for (char c : phone)
         if (!isdigit(c)) return false;
+  return true;
+}
+
+ 
   
 
 

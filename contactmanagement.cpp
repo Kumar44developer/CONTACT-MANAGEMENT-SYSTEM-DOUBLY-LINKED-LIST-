@@ -67,6 +67,8 @@ bool isPhoneNumberCorrect(string phone)
   return true;
 }
 
+Node* makeNode(string name, string phone, string mail)
+{
  
   
 

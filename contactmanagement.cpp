@@ -94,7 +94,8 @@ void saveToFile()
 
 void loadFromFile()
 {
-
+ifstream file("contacts.txt");
+    if (!file) return;
 
 
 

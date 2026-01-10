@@ -82,6 +82,10 @@ void saveToFile()
 {
     ofstream file("contacts.txt");
     Node* t = head;
+    while (t)
+    {
+        file << t->name << ","
+
 
 
 

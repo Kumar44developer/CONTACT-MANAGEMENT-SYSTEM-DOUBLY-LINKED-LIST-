@@ -70,6 +70,8 @@ bool isPhoneNumberCorrect(string phone)
 Node* makeNode(string name, string phone, string mail)
 {
   Node* n = new Node();
+  n->name = name;
+  n->phone = phone;
     
   
 

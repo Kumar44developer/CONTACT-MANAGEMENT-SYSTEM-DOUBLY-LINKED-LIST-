@@ -88,6 +88,9 @@ void saveToFile()
           << encryptText(t->phone) << ","
           << encryptText(t->mail) << endl;  
         t = t->next;
+    }
+    file.close();
+}
 
 
 

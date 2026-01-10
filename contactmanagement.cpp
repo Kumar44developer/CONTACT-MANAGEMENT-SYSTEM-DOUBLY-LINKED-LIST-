@@ -56,6 +56,8 @@ bool isEmailCorrect(string email)
 {
     string lower = makeTextLowerCase(email);
     return (lower.find("@gmail.com") != -1 || lower.find("@yahoo.com") != -1 ||
+            lower.find("@outlook.com") != -1 || lower.find("@hotmail.com") != -1);
+}        
 
 
 

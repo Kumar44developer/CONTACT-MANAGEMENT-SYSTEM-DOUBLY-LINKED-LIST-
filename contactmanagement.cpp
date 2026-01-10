@@ -87,6 +87,7 @@ void saveToFile()
         file << t->name << ","
           << encryptText(t->phone) << ","
           << encryptText(t->mail) << endl;  
+        t = t->next;
 
 
 

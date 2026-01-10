@@ -38,6 +38,8 @@ void getLine(string& text)
 string encryptText(string data)
 {
 string result = "";
+ for (int i = 0; i < data.length(); i++)
+        result += char(data[i] + 3);
 
 
         

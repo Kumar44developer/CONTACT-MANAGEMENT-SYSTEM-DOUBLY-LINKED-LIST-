@@ -51,4 +51,14 @@ string decryptText(string data)
           return result;
 }
 
+
+bool isEmailCorrect(string email)
+{
+    string lower = makeTextLowerCase(email);
+
+
+
+
+
+
         

@@ -55,6 +55,8 @@ string decryptText(string data)
 bool isEmailCorrect(string email)
 {
     string lower = makeTextLowerCase(email);
+    return (lower.find("@gmail.com") != -1 || lower.find("@yahoo.com") != -1 ||
+
 
 
 

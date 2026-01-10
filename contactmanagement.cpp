@@ -78,7 +78,9 @@ Node* makeNode(string name, string phone, string mail)
     return n;
 }
   
-
+void saveToFile()
+{
+    ofstream file("contacts.txt");
 
 
 

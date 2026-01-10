@@ -61,6 +61,7 @@ bool isEmailCorrect(string email)
 
 bool isPhoneNumberCorrect(string phone)
 {
+    if (phone.length() != 10) return false;
   
 
 

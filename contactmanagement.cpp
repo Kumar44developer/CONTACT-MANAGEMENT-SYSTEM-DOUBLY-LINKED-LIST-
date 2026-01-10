@@ -74,6 +74,9 @@ Node* makeNode(string name, string phone, string mail)
   n->phone = phone;
   n->mail = mail;
   n->prev = NULL; 
+  n->next = NULL;
+    return n;
+}
   
 
 

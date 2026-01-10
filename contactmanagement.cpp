@@ -46,5 +46,7 @@ string result = "";
 string decryptText(string data)
 {
     string result = "";
+     for (int i = 0; i < data.length(); i++)
+        result += char(data[i] - 3);
 
         

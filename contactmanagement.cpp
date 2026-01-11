@@ -150,7 +150,9 @@ bool isDuplicate(string phone, string email, Node* ignore = NULL)
                 return true;
         }
         t = t->next;
-
+       }
+    return false;
+}
 
 
 

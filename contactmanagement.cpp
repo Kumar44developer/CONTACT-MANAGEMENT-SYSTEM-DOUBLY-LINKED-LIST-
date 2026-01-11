@@ -139,6 +139,8 @@ string getCountryCode()
     return code;
 }
 
+bool isDuplicate(string phone, string email, Node* ignore = NULL)
+{
 
 
 

@@ -158,6 +158,8 @@ bool isDuplicate(string phone, string email, Node* ignore = NULL)
 Node* searchContact(string name)
 {
     Node* t = head;
+    string key = makeTextLowerCase(name);
+
 
 
 

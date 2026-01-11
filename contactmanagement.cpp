@@ -124,6 +124,7 @@ string getCountryCode()
 {
     int c;
     string code;
+    cout << "1. India\n2. USA\n3. UK\n4. Australia\nChoose country: ";
 
 
 

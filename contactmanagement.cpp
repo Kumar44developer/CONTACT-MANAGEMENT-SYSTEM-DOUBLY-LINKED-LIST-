@@ -149,6 +149,7 @@ bool isDuplicate(string phone, string email, Node* ignore = NULL)
             if (t->phone == phone || makeTextLowerCase(t->mail) == makeTextLowerCase(email))
                 return true;
         }
+        t = t->next;
 
 
 

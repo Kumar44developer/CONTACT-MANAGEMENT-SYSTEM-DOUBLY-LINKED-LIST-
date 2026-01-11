@@ -102,6 +102,9 @@ while (getline(file, line))
         int p1 = line.find(",");
         int p2 = line.find(",", p1 + 1);
 
+        string name = line.substr(0, p1);
+
+
 
 
 

@@ -104,6 +104,8 @@ while (getline(file, line))
 
         string name = line.substr(0, p1);
         string phone = decryptText(line.substr(p1 + 1, p2 - p1 - 1));
+        string mail = decryptText(line.substr(p2 + 1));
+
 
 
 

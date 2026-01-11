@@ -144,7 +144,9 @@ bool isDuplicate(string phone, string email, Node* ignore = NULL)
     Node* t = head;
      while (t)
     {
-      
+       if (t != ignore)
+        {
+
 
 
 

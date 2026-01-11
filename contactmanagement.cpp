@@ -106,6 +106,9 @@ while (getline(file, line))
         string phone = decryptText(line.substr(p1 + 1, p2 - p1 - 1));
         string mail = decryptText(line.substr(p2 + 1));
 
+        Node* n = makeNode(name, phone, mail);
+
+
 
 
 

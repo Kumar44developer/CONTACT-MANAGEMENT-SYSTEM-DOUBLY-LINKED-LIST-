@@ -131,6 +131,10 @@ string getCountryCode()
     cout << "Enter country code: ";
     getLine(code);
 
+ while (code != countryCodes[c - 1])
+    {
+
+
 
 
 

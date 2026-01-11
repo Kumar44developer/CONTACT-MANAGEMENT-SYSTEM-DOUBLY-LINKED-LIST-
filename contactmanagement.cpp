@@ -165,6 +165,8 @@ Node* searchContact(string name)
           return t;
         t = t->next;
     }
+   return NULL;
+}
 
 
 

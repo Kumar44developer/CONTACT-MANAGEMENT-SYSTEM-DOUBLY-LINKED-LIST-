@@ -155,6 +155,8 @@ bool isDuplicate(string phone, string email, Node* ignore = NULL)
 }
 
 
+Node* searchContact(string name)
+{
 
 
 

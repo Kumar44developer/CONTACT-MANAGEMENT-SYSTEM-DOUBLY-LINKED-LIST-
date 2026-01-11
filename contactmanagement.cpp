@@ -109,7 +109,11 @@ while (getline(file, line))
         Node* n = makeNode(name, phone, mail);
         if (!head) head = n;
 
-
+ else
+        {
+            Node* t = head;
+            while (t->next) t = t->next;
+           
 
 
 

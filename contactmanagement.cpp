@@ -128,7 +128,8 @@ string getCountryCode()
     cin >> c;
     cin.ignore();
     if (c < 1 || c > 4) c = 1;
-
+    cout << "Enter country code: ";
+    getLine(code);
 
 
 

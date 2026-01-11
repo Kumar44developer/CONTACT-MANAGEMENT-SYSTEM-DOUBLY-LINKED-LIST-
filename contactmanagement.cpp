@@ -159,6 +159,10 @@ Node* searchContact(string name)
 {
     Node* t = head;
     string key = makeTextLowerCase(name);
+     while (t)
+    {
+        if (makeTextLowerCase(t->name) == key)
+
 
 
 

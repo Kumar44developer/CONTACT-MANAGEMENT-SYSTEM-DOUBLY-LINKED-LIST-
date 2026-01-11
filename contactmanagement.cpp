@@ -103,6 +103,8 @@ while (getline(file, line))
         int p2 = line.find(",", p1 + 1);
 
         string name = line.substr(0, p1);
+        string phone = decryptText(line.substr(p1 + 1, p2 - p1 - 1));
+
 
 
 

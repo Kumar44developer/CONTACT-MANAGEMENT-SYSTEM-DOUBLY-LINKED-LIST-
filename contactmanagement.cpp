@@ -107,6 +107,8 @@ while (getline(file, line))
         string mail = decryptText(line.substr(p2 + 1));
 
         Node* n = makeNode(name, phone, mail);
+        if (!head) head = n;
+
 
 
 

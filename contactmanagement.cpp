@@ -117,7 +117,9 @@ while (getline(file, line))
             n->prev = t;
         }
     }
-           
+    file.close();
+}
+         
 
 
 

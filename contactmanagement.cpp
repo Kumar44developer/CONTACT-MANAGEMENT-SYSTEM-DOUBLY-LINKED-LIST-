@@ -99,6 +99,8 @@ ifstream file("contacts.txt");
     string line;
 while (getline(file, line))
 {
+        int p1 = line.find(",");
+        int p2 = line.find(",", p1 + 1);
 
 
 

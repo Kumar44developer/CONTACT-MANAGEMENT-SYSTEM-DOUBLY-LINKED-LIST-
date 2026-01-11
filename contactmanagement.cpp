@@ -133,7 +133,8 @@ string getCountryCode()
 
  while (code != countryCodes[c - 1])
     {
-
+        cout << "Wrong code. Enter again: ";
+        getLine(code);
 
 
 

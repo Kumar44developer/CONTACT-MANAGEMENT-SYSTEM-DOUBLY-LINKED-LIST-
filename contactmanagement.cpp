@@ -135,6 +135,9 @@ string getCountryCode()
     {
         cout << "Wrong code. Enter again: ";
         getLine(code);
+    }
+    return code;
+}
 
 
 

@@ -122,7 +122,8 @@ while (getline(file, line))
          
 string getCountryCode()
 {
-
+    int c;
+    string code;
 
 
 

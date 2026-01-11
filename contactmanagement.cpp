@@ -162,6 +162,9 @@ Node* searchContact(string name)
      while (t)
     {
         if (makeTextLowerCase(t->name) == key)
+          return t;
+        t = t->next;
+    }
 
 
 

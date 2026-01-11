@@ -113,6 +113,10 @@ while (getline(file, line))
         {
             Node* t = head;
             while (t->next) t = t->next;
+             t->next = n;
+            n->prev = t;
+        }
+    }
            
 
 

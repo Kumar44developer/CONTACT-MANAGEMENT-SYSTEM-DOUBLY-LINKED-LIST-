@@ -181,6 +181,8 @@ void showContactsWithPagination()
     int total = 0;
 
     Node* t = head;
+    while (t) { total++; t = t->next; }
+
 
 
 

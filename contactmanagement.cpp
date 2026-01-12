@@ -207,6 +207,8 @@ void showContactsWithPagination()
         cout << "\n1.Next  2.Previous  3.Exit : ";
         int ch;
         cin >> ch;
+        if (ch == 1 && page < pages) page++;
+
 
 
 

@@ -209,6 +209,8 @@ void showContactsWithPagination()
         cin >> ch;
         if (ch == 1 && page < pages) page++;
         else if (ch == 2 && page > 1) page--;
+        else if (ch == 3) break;
+        else cout << "Invalid.\n";
 
 
 

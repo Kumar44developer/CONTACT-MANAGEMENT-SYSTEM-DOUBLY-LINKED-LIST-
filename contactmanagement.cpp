@@ -190,6 +190,8 @@ void showContactsWithPagination()
     while (true)
     {
         cout << "\nPage " << page << " of " << pages << endl;
+        int skip = (page - 1) * pageSize;
+
 
 
 

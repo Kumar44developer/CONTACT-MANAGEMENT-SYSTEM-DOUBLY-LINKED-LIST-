@@ -180,5 +180,8 @@ void showContactsWithPagination()
     int pageSize = 20;
     int total = 0;
 
+    Node* t = head;
+
+
 
         

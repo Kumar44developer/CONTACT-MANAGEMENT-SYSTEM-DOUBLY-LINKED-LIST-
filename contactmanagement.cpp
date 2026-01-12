@@ -184,6 +184,9 @@ void showContactsWithPagination()
     while (t) { total++; t = t->next; }
     int pages = total / pageSize + (total % pageSize != 0);
 
+    int page = 1;
+
+
 
 
 

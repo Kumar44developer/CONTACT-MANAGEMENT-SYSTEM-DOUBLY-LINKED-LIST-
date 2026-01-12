@@ -174,6 +174,8 @@ void showContactsWithPagination()
       if (!head)
     {
         cout << "No contacts available.\n";
+        return;
+    }
 
 
 

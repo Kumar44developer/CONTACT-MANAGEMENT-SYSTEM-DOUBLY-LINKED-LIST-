@@ -220,7 +220,8 @@ void addContact()
     string name, phone, mail;
     cin.ignore();
     cout << "Enter name: "; getLine(name);
-
+    string code = getCountryCode();
+    cout << "Enter phone: "; getLine(phone);
 
 
 

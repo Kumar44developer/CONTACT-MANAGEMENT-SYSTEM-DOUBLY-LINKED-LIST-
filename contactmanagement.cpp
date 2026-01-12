@@ -195,6 +195,7 @@ void showContactsWithPagination()
         t = head;
         while (skip-- && t) t = t->next;
 
+        int shown = 0;
 
 
 

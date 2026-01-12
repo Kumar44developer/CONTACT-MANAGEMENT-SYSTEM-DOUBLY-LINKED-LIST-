@@ -176,7 +176,9 @@ void showContactsWithPagination()
         cout << "No contacts available.\n";
         return;
     }
-
+    
+    int pageSize = 20;
+    int total = 0;
 
 
         

@@ -215,6 +215,12 @@ void showContactsWithPagination()
 }
 
 
+void addContact()
+{
+    string name, phone, mail;
+    cin.ignore();
+
+
 
 
 

@@ -171,7 +171,9 @@ Node* searchContact(string name)
 
 void showContactsWithPagination()
 {
-  
+      if (!head)
+    {
+        cout << "No contacts available.\n";
 
 
 

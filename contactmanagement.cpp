@@ -223,6 +223,9 @@ void addContact()
     string code = getCountryCode();
     cout << "Enter phone: "; getLine(phone);
 
+    while (!isPhoneNumberCorrect(phone)) { cout << "Invalid phone. Try again: "; getLine(phone); }
+
+
 
 
 

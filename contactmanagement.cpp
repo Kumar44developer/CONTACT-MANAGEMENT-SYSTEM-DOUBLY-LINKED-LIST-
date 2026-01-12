@@ -200,6 +200,9 @@ void showContactsWithPagination()
        while (t && shown < pageSize)
         {
             cout << t->name << " | " << t->phone << " | " << t->mail << endl;
+            t = t->next;
+            shown++;
+        }
 
 
 

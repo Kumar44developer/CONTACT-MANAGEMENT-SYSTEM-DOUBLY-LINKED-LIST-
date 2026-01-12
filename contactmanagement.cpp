@@ -187,6 +187,11 @@ void showContactsWithPagination()
     int page = 1;
 
 
+    while (true)
+    {
+        cout << "\nPage " << page << " of " << pages << endl;
+
+
 
 
 

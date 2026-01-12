@@ -211,6 +211,9 @@ void showContactsWithPagination()
         else if (ch == 2 && page > 1) page--;
         else if (ch == 3) break;
         else cout << "Invalid.\n";
+    }
+}
+
 
 
 

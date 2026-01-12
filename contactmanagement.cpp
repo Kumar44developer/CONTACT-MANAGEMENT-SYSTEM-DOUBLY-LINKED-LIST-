@@ -226,6 +226,8 @@ void addContact()
     while (!isPhoneNumberCorrect(phone)) { cout << "Invalid phone. Try again: "; getLine(phone); }
 
     cout << "Enter email: "; getLine(mail);
+    while (!isEmailCorrect(mail)) { cout << "Invalid email. Try again: "; getLine(mail); }
+
 
 
 

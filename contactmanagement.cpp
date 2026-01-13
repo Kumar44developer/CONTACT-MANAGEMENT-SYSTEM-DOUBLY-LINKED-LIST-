@@ -235,6 +235,9 @@ void addContact()
      cout << "Duplicate found. Enter new phone & email.\n";
         getLine(phone);
         getLine(mail);
+       fullPhone = code + phone;
+    }
+
 
 
 

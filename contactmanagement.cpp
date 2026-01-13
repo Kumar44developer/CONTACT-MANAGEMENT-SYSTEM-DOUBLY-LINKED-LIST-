@@ -258,7 +258,10 @@ int main()
     loadFromFile();
     int choice;
 
-
+    while (true)
+    {
+        cout << "\n1.Add\n2.Show\n3.Exit\nEnter: ";
+        cin >> choice;
 
 
 

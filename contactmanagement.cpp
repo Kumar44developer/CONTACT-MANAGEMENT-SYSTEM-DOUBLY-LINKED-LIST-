@@ -267,6 +267,8 @@ int main()
         else if (choice == 3) break;
         else cout << "Invalid.\n";
     }
+    return 0;
+}
 
 
 

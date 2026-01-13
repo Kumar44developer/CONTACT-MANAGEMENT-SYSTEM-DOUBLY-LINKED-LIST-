@@ -238,6 +238,8 @@ void addContact()
        fullPhone = code + phone;
     }
 
+    Node* n = makeNode(name, fullPhone, mail);
+    if (!head) head = n;
 
 
 

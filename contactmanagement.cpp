@@ -232,7 +232,9 @@ void addContact()
 
     while (isDuplicate(fullPhone, mail))
     {
-     
+     cout << "Duplicate found. Enter new phone & email.\n";
+        getLine(phone);
+        getLine(mail);
 
 
 

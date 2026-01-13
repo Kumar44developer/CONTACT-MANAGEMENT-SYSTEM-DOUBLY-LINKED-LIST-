@@ -264,6 +264,8 @@ int main()
         cin >> choice;
         if (choice == 1) addContact();
         else if (choice == 2) showContactsWithPagination();
+        else if (choice == 3) break;
+
 
 
 

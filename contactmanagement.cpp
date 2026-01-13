@@ -230,7 +230,9 @@ void addContact()
 
     string fullPhone = code + phone;
 
-
+    while (isDuplicate(fullPhone, mail))
+    {
+     
 
 
 

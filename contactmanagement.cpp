@@ -245,6 +245,8 @@ void addContact()
         Node* t = head;
         while (t->next) t = t->next;
         t->next = n;
+      n->prev = t;
+    }
 
 
 

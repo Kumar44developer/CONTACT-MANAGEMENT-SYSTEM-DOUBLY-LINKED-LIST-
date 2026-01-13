@@ -243,6 +243,8 @@ void addContact()
      else
     {
         Node* t = head;
+        while (t->next) t = t->next;
+        t->next = n;
 
 
 

@@ -251,6 +251,13 @@ void addContact()
 
  saveToFile();
  cout << "Contact added successfully.\n";
+}
+
+int main()
+{
+    loadFromFile();
+    int choice;
+
 
 
 

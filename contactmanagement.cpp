@@ -240,8 +240,9 @@ void addContact()
 
     Node* n = makeNode(name, fullPhone, mail);
     if (!head) head = n;
-
-
+     else
+    {
+        Node* t = head;
 
 
 

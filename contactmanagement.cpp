@@ -262,6 +262,7 @@ int main()
     {
         cout << "\n1.Add\n2.Show\n3.Exit\nEnter: ";
         cin >> choice;
+        if (choice == 1) addContact();
 
 
 

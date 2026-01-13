@@ -1,4 +1,4 @@
-#include <iostream>
+     #include <iostream>
 #include <fstream>
 #include <string>
 #include <cctype>
@@ -227,6 +227,9 @@ void addContact()
 
     cout << "Enter email: "; getLine(mail);
     while (!isEmailCorrect(mail)) { cout << "Invalid email. Try again: "; getLine(mail); }
+
+    string fullPhone = code + phone;
+
 
 
 

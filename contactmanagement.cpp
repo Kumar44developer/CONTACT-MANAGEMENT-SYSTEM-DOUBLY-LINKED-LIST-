@@ -249,6 +249,10 @@ void addContact()
     }
 
 
+ saveToFile();
+ cout << "Contact added successfully.\n";
+
+
 
 
 
